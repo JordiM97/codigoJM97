@@ -1,6 +1,6 @@
 <span class="v10_12">Informi'ns sobre alguna cosa que creguis que podem millorar:</span>
 <form action="" method="POST">
-	<textarea class="v10_63" rows="28" cols="199" placeholder="Escriu la teva resposta" name="respuesta2"></textarea>
+	<textarea class="v10_63" rows="28" cols="199" placeholder="Escriu la teva resposta" name="respuesta2"><?=$respuesta2;?></textarea>
 	<div class="v10_212">
 		<div class="v10_213"></div>
 		<input type="text" name="rutaSiguiente" value="sections/pregunta3.php" hidden>

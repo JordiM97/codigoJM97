@@ -381,7 +381,7 @@ background: rgba(237,0,0,1);
 .v10_207 {
   width: 155px;
   height: 46px;
-  background: rgba(217,217,217,1);
+  background: rgba(230,230,230,1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -398,12 +398,6 @@ background: rgba(237,0,0,1);
   font-weight: Regular;
   font-size: 28px;
   text-align: center;
-}
-.v10_207:hover {
-  background: rgba(237,0,0,1);
-}
-.v10_207:active {
-  background: rgba(153,0,0,1);
 }
 .v10_209 {
   width: 76px;

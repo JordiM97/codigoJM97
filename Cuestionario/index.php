@@ -2,6 +2,12 @@
 
 session_start();
 
+$respuesta1 = $_SESSION['respuesta1'] ?? null;
+$respuesta2 = $_SESSION['respuesta2'] ?? null;
+$respuesta3 = $_SESSION['respuesta3'] ?? null;
+$respuesta4 = $_SESSION['respuesta4'] ?? null;
+
+
 include("services/conexion.php");
 
 $ruta = "sections/pregunta1.php";
@@ -49,14 +55,20 @@ else if(isset($_POST["botonSeguent3"]))
 if(isset($_POST["botonAnterior2"]))
 {
 	$ruta = $_POST['rutaAnterior'];
+	$_SESSION['respuesta2'] = $_POST['respuesta2'];
 }
 else if(isset($_POST["botonAnterior3"]))
 {
 	$ruta = $_POST['rutaAnterior'];
+	if(isset($_POST['respuesta3']))
+	{
+		$_SESSION['respuesta3'] = $_POST['respuesta3'];
+	}
 }
 else if(isset($_POST["botonAnterior4"]))
 {
 	$ruta = $_POST['rutaAnterior'];
+	$_SESSION['respuesta4'] = $_POST['respuesta4'];
 }
 
 if(isset($_POST["final"]))

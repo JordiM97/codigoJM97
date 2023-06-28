@@ -1,10 +1,10 @@
 <span class="v10_73">Selecciona el teu grau de satisfacció:</span>
 <form action="" method="POST">
-	<input class="vv3_1" type="radio" id="opcio3_1" name="respuesta3" value="Molt Insatisfet">
-	<input class="vv3_2" type="radio" id="opcio3_2" name="respuesta3" value="Insatisfet">
-	<input class="vv3_3" type="radio" id="opcio3_3" name="respuesta3" value="Neutral">
-	<input class="vv3_4" type="radio" id="opcio3_4" name="respuesta3" value="Satisfet">
-	<input class="vv3_5" type="radio" id="opcio3_5" name="respuesta3" value="Molt Satisfet">
+	<input class="vv3_1" type="radio" id="opcio3_1" name="respuesta3" value="Molt Insatisfet" <?php if ($respuesta3 == "Molt Insatisfet") echo 'checked'; ?>>
+	<input class="vv3_2" type="radio" id="opcio3_2" name="respuesta3" value="Insatisfet" <?php if ($respuesta3 == "Insatisfet") echo 'checked'; ?>>
+	<input class="vv3_3" type="radio" id="opcio3_3" name="respuesta3" value="Neutral" <?php if ($respuesta3 == "Neutral") echo 'checked'; ?>>
+	<input class="vv3_4" type="radio" id="opcio3_4" name="respuesta3" value="Satisfet" <?php if ($respuesta3 == "Satisfet") echo 'checked'; ?>>
+	<input class="vv3_5" type="radio" id="opcio3_5" name="respuesta3" value="Molt Satisfet" <?php if ($respuesta3 == "Molt Satisfet") echo 'checked'; ?>>
 	<div class="v10_100">
 		<div class="v10_101"></div>
 		<div class="v10_102"></div>

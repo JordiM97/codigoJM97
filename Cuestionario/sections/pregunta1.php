@@ -1,9 +1,9 @@
 <span class="v18_372">Selecciona el que més t’hagi agradat:</span>
 <form action="" method="POST">
-	<input class="v3_100" type="radio" id="opcio1_1" name="respuesta1" value=1>
-	<input class="v3_105" type="radio" id="opcio1_2" name="respuesta1" value=2>
-	<input class="v3_110" type="radio" id="opcio1_3" name="respuesta1" value=3>
-	<input class="v3_115" type="radio" id="opcio1_4" name="respuesta1" value=4>
+	<input class="v3_100" type="radio" id="opcio1_1" name="respuesta1" value=1 <?php if ($respuesta1 == 1) echo 'checked'; ?>>
+	<input class="v3_105" type="radio" id="opcio1_2" name="respuesta1" value=2 <?php if ($respuesta1 == 2) echo 'checked'; ?>>
+	<input class="v3_110" type="radio" id="opcio1_3" name="respuesta1" value=3 <?php if ($respuesta1 == 3) echo 'checked'; ?>>
+	<input class="v3_115" type="radio" id="opcio1_4" name="respuesta1" value=4 <?php if ($respuesta1 == 4) echo 'checked'; ?>>
 	<div class="v3_96">
 		<div class="v3_97"></div>
 		<span class="v3_98">Opció<br>1</span>
@@ -29,7 +29,7 @@
 		<input type="text" name="rutaSiguiente" value="sections/pregunta2.php" hidden>
 		<input type="text" name="rutaAnterior" value="sections/pregunta1.php" hidden>
 		<input type=submit class="v10_206" name="botonSeguent1" value="Següent">
-		<input type=submit class="v10_207" name="botonAnterior1" value="Anterior">
+		<input type=submit class="v10_207" name="botonAnterior1" value="Anterior" disabled="disabled">
 	</div>
 </form>
 <div class="v10_314">
