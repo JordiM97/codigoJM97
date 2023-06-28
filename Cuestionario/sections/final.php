@@ -1,0 +1,1 @@
+<span class="v18_357">Moltes gracies per realitzar l’enquesta!</span>

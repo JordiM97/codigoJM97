@@ -1,0 +1,45 @@
+body {
+	/*background-color: rgb(82, 184, 255);*/
+	background-image: url(../img/bg.gif);
+	background-size: cover;
+	margin-top: 15px;
+	font-family: sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+	padding: 10px;
+	width: 225px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.flex-container > .div1 {
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 10px;
+	width: 225px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+}
+
+h2 {
+	color: white;
+	-webkit-text-stroke-width: 0.8px;
+	-webkit-text-stroke-color: black;
+	text-align: center;
+}
+
+ul {
+	color: white;
+}
+
+a:hover {
+	background-color: rgb(255, 247, 173);
+	color: red;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/links.css">
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<title>AG_53 - Añadir nombre y emoji</title>
+</head>
+<body>
+<div id="name-container">
+	<h1 id="name">Nombre</h1>
+	<p id="emoji">&#x1F600;</p>
+	<!--<a href="https://wintelguy.com/unicode_character_lookup.pl/?str=1F600-1F64F" target="_blank">&#x1F642</a>-->
+	<label for="emoji-choice">Elige tu animal:</label>
+	<br>
+	<select id="selector" name="emojis">
+		  	<option value="&#x1f432;">&#x1f432;</option>
+  			<option value="&#x1f42e;">&#x1f42e;</option>
+  			<option value="&#x1f431;">&#x1f431;</option>
+  			<option value="&#x1f430;">&#x1f430;</option>
+  			<option value="&#x1f43a;">&#x1f43a;</option>	
+	</select>
+	<br><br>
+	<button onclick="cambiar()" id="boton">Cambiar nombre y emoji</button>
+	<br><br>
+	<button onclick="saludar()" id="boton">Saludar</button>
+	<br><br>
+</div>
+	<datalist id="emojis">
+		<option value="&#x1f432;">
+		<option value="&#x1f42e;">
+		<option value="&#x1f431;">
+		<option value="&#x1f430;">
+		<option value="&#x1f43a;">
+	</datalist>
+</body>
+</html>

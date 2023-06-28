@@ -1,0 +1,38 @@
+body {
+	background-color: rgb(102, 204, 255);
+}
+
+.divTabla {
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	font-family: sans-serif;
+	color: white;
+}
+
+.tabla {
+	font-size: 20px;
+	background-color: rgb(102, 204, 255);
+	border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+  border: 2px solid white;
+}
+
+tr:hover:not(.primeraFila) {background-color: rgb(189,251,255);}
+
+.primeraFila {
+	font-weight: bold;
+	background-color: rgb(22,162,222);
+}
+
+caption {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 10px;
+}

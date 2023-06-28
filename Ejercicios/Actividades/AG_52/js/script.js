@@ -1,0 +1,1 @@
+alert("Hello, world! Your JavaScript script is functioning correctly!");

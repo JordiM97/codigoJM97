@@ -1,0 +1,64 @@
+body {
+	background: rgb(106,106,106);
+	background: linear-gradient(0deg, rgba(106,106,106,1) 0%, rgba(185,185,185,1) 100%);
+	color: #333333;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 32px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+small {
+	font-size: 12px;
+}
+
+mark {
+	background-color: black;
+	color: white;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+sub {
+	vertical-align: sub;
+	font-size: 12px;
+}
+
+sup {
+	vertical-align: super;
+	font-size: 12px;
+}
+
+div {
+	width: 400px;
+	margin: auto;
+}
